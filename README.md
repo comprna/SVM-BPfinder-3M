@@ -1,8 +1,7 @@
-# SVM-BPfinder  - A tool for mammalian BP prediction. 
+# SVM-BPfinder  - A tool for mammalian BP prediction - Python 3 & M series version
 
-(code also available from https://bitbucket.org/regulatorygenomicsupf/svm-bpfinder)
-
-Andre Corvelo and Eduardo Eyras | Regulatory Genomics @ Universitat Pompeu Fabra, Barcelona, Spain | 2010 
+Originally written by Andre Corvelo (2010)
+Python 3 version and svm_light code compilation for M series provided by https://github.com/santataRU 
 
 This tool is free for purpose of academic, non-commercial research. The software must not be further distributed without prior permission of the authors.
 
@@ -21,12 +20,14 @@ A. Corvelo, M. Hallegger, C.W.J. Smith, E. Eyras. (2010). Genome-wide Associatio
 
 ### IMPORTANT:
 
-SVM-BPfinder requires SVMlight, which can be downloaded at:
+SVM-BPfinder uses SVMlight:
 ```
 http://osmot.cs.cornell.edu/svm_light/current/
 ```
 
-After downloading SVMlight, copy the executable 'svm_classify' to the ./SCRIPTS/ folder.
+A compiled version of 'svm_classify' for the M series (thanks https://github.com/santataRU ) is available at
+'SCRIPTS/svm_classify' 
+in this repository
 
 Make sure you have permission to execute these three scripts:
 1) 'svm_bpfinder.py'
